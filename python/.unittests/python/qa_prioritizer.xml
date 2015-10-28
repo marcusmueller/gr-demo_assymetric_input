@@ -1,0 +1,14 @@
+<testsuite errors="0" failures="1" name="unittest.suite.TestSuite" tests="1" time="2.668">
+  <testcase classname="__main__.qa_prioritizer" name="test_001_t" time="2.6683">
+    <failure type="exceptions.AssertionError">0.8192 != 0.01 within 3 places
+  File "/usr/lib64/python2.7/unittest/case.py", line 369, in run
+    testMethod()
+  File "./qa_prioritizer.py", line 53, in test_001_t
+    self.assertAlmostEqual(avg, 1e-2, 3)
+  File "/usr/lib64/python2.7/unittest/case.py", line 601, in assertAlmostEqual
+    raise self.failureException(msg)
+    </failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
